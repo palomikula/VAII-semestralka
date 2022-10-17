@@ -1,0 +1,22 @@
+body {
+    font-family: Archivo, sans-serif;
+    margin: -8px;
+}
+
+.centered-text {
+    display: flex;
+    height: 500px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.footer {
+    background-color: #333434;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}

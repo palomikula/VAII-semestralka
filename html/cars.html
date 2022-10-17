@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Best carsharing ever</title>
+    <link rel="stylesheet" href="../css/top-nav.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/cars.css">
+</head>
+<body>
+<div class="top-nav">
+    <a href="home.html" class="left">
+        DOMOV
+    </a>
+    <a class="active" href="cars.html">AUTÁ</a>
+    <a href="history.html">HISTÓRIA</a>
+    <a href="about.html">INFO</a>
+    <a class='right' href="account.html">ÚČET</a>
+</div>
+<div>
+    <button class="btn-rent">
+        POŽIČAŤ
+    </button>
+</div>
+<div class="search-bar">
+    <label>
+        <input type="search" class="search-bar-input" placeholder="hľadaj">
+    </label>
+</div>
+<div style="overflow-x: auto">
+    <table>
+        <tr>
+            <th></th>
+            <th>č.</th>
+            <th>Model</th>
+            <th>Objem motora</th>
+            <th>Výkon</th>
+            <th>Prevodovka</th>
+            <th>Zrýchlenie 0-100</th>
+            <th>Maximálna rýchlosť</th>
+            <th>Kombinovaná spotreba</th>
+            <th>Cena za hodinu</th>
+        </tr>
+        <tr>
+            <td><label>
+                    <input type="checkbox"/>
+            </label></td>
+            <td>1.</td>
+            <td>Mercedes-benz G63</td>
+            <td>5.5 l</td>
+            <td>540 hp</td>
+            <td>automatická</td>
+            <td>3.9 s</td>
+            <td>230 km/h</td>
+            <td>13.8 l</td>
+            <td>20€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>2.</td>
+            <td>Mercedes-benz E63</td>
+            <td>4 l</td>
+            <td>604 hp</td>
+            <td>automatická</td>
+            <td>3.4 s</td>
+            <td>300 km/h</td>
+            <td>12.5 l</td>
+            <td>20€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>3.</td>
+            <td>Nissan GTR</td>
+            <td>3.8 l</td>
+            <td>565 hp</td>
+            <td>automatická</td>
+            <td>3.6 s</td>
+            <td>315 km/h</td>
+            <td>12.2 l</td>
+            <td>25€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>4.</td>
+            <td>Labmorghini huracan</td>
+            <td>5.2 l</td>
+            <td>631 hp</td>
+            <td>automatická</td>
+            <td>2.9 s</td>
+            <td>325 km/h</td>
+            <td>15.6 l</td>
+            <td>30€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>5.</td>
+            <td>Labmorghini urus</td>
+            <td>5.2 l</td>
+            <td>631 hp</td>
+            <td>automatická</td>
+            <td>4.8 s</td>
+            <td>256 km/h</td>
+            <td>15.6 l</td>
+            <td>30€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>6.</td>
+            <td>BMW m8</td>
+            <td>4.4 l</td>
+            <td>591 hp</td>
+            <td>automatická</td>
+            <td>4.6 s</td>
+            <td>282 km/h</td>
+            <td>13.6 l</td>
+            <td>25€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>7.</td>
+            <td>Fiat multipla</td>
+            <td>1.6 l</td>
+            <td>103 hp</td>
+            <td>manuálna</td>
+            <td>áno</td>
+            <td>áno</td>
+            <td>8.6 l</td>
+            <td>5€</td>
+        </tr>
+        <td><label>
+            <input type="checkbox"/>
+        </label></td>
+        <td>1.</td>
+        <td>Mercedes-benz G63</td>
+        <td>5.5 l</td>
+        <td>540 hp</td>
+        <td>automatická</td>
+        <td>3.9 s</td>
+        <td>230 km/h</td>
+        <td>13.8 l</td>
+        <td>20€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>2.</td>
+            <td>Mercedes-benz E63</td>
+            <td>4 l</td>
+            <td>604 hp</td>
+            <td>automatická</td>
+            <td>3.4 s</td>
+            <td>300 km/h</td>
+            <td>12.5 l</td>
+            <td>20€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>3.</td>
+            <td>Nissan GTR</td>
+            <td>3.8 l</td>
+            <td>565 hp</td>
+            <td>automatická</td>
+            <td>3.6 s</td>
+            <td>315 km/h</td>
+            <td>12.2 l</td>
+            <td>25€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>4.</td>
+            <td>Labmorghini huracan</td>
+            <td>5.2 l</td>
+            <td>631 hp</td>
+            <td>automatická</td>
+            <td>2.9 s</td>
+            <td>325 km/h</td>
+            <td>15.6 l</td>
+            <td>30€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>5.</td>
+            <td>Labmorghini urus</td>
+            <td>5.2 l</td>
+            <td>631 hp</td>
+            <td>automatická</td>
+            <td>4.8 s</td>
+            <td>256 km/h</td>
+            <td>15.6 l</td>
+            <td>30€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>6.</td>
+            <td>BMW m8</td>
+            <td>4.4 l</td>
+            <td>591 hp</td>
+            <td>automatická</td>
+            <td>4.6 s</td>
+            <td>282 km/h</td>
+            <td>13.6 l</td>
+            <td>25€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>7.</td>
+            <td>Fiat multipla</td>
+            <td>1.6 l</td>
+            <td>103 hp</td>
+            <td>manuálna</td>
+            <td>áno</td>
+            <td>áno</td>
+            <td>8.6 l</td>
+            <td>5€</td>
+        </tr>
+        <td><label>
+            <input type="checkbox"/>
+        </label></td>
+        <td>1.</td>
+        <td>Mercedes-benz G63</td>
+        <td>5.5 l</td>
+        <td>540 hp</td>
+        <td>automatická</td>
+        <td>3.9 s</td>
+        <td>230 km/h</td>
+        <td>13.8 l</td>
+        <td>20€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>2.</td>
+            <td>Mercedes-benz E63</td>
+            <td>4 l</td>
+            <td>604 hp</td>
+            <td>automatická</td>
+            <td>3.4 s</td>
+            <td>300 km/h</td>
+            <td>12.5 l</td>
+            <td>20€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>3.</td>
+            <td>Nissan GTR</td>
+            <td>3.8 l</td>
+            <td>565 hp</td>
+            <td>automatická</td>
+            <td>3.6 s</td>
+            <td>315 km/h</td>
+            <td>12.2 l</td>
+            <td>25€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>4.</td>
+            <td>Labmorghini huracan</td>
+            <td>5.2 l</td>
+            <td>631 hp</td>
+            <td>automatická</td>
+            <td>2.9 s</td>
+            <td>325 km/h</td>
+            <td>15.6 l</td>
+            <td>30€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>5.</td>
+            <td>Labmorghini urus</td>
+            <td>5.2 l</td>
+            <td>631 hp</td>
+            <td>automatická</td>
+            <td>4.8 s</td>
+            <td>256 km/h</td>
+            <td>15.6 l</td>
+            <td>30€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>6.</td>
+            <td>BMW m8</td>
+            <td>4.4 l</td>
+            <td>591 hp</td>
+            <td>automatická</td>
+            <td>4.6 s</td>
+            <td>282 km/h</td>
+            <td>13.6 l</td>
+            <td>25€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>7.</td>
+            <td>Fiat multipla</td>
+            <td>1.6 l</td>
+            <td>103 hp</td>
+            <td>manuálna</td>
+            <td>áno</td>
+            <td>áno</td>
+            <td>8.6 l</td>
+            <td>5€</td>
+        </tr>
+        <td><label>
+            <input type="checkbox"/>
+        </label></td>
+        <td>1.</td>
+        <td>Mercedes-benz G63</td>
+        <td>5.5 l</td>
+        <td>540 hp</td>
+        <td>automatická</td>
+        <td>3.9 s</td>
+        <td>230 km/h</td>
+        <td>13.8 l</td>
+        <td>20€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>2.</td>
+            <td>Mercedes-benz E63</td>
+            <td>4 l</td>
+            <td>604 hp</td>
+            <td>automatická</td>
+            <td>3.4 s</td>
+            <td>300 km/h</td>
+            <td>12.5 l</td>
+            <td>20€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>3.</td>
+            <td>Nissan GTR</td>
+            <td>3.8 l</td>
+            <td>565 hp</td>
+            <td>automatická</td>
+            <td>3.6 s</td>
+            <td>315 km/h</td>
+            <td>12.2 l</td>
+            <td>25€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>4.</td>
+            <td>Labmorghini huracan</td>
+            <td>5.2 l</td>
+            <td>631 hp</td>
+            <td>automatická</td>
+            <td>2.9 s</td>
+            <td>325 km/h</td>
+            <td>15.6 l</td>
+            <td>30€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>5.</td>
+            <td>Labmorghini urus</td>
+            <td>5.2 l</td>
+            <td>631 hp</td>
+            <td>automatická</td>
+            <td>4.8 s</td>
+            <td>256 km/h</td>
+            <td>15.6 l</td>
+            <td>30€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>6.</td>
+            <td>BMW m8</td>
+            <td>4.4 l</td>
+            <td>591 hp</td>
+            <td>automatická</td>
+            <td>4.6 s</td>
+            <td>282 km/h</td>
+            <td>13.6 l</td>
+            <td>25€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>7.</td>
+            <td>Fiat multipla</td>
+            <td>1.6 l</td>
+            <td>103 hp</td>
+            <td>manuálna</td>
+            <td>áno</td>
+            <td>áno</td>
+            <td>8.6 l</td>
+            <td>5€</td>
+        </tr>
+        <td><label>
+            <input type="checkbox"/>
+        </label></td>
+        <td>1.</td>
+        <td>Mercedes-benz G63</td>
+        <td>5.5 l</td>
+        <td>540 hp</td>
+        <td>automatická</td>
+        <td>3.9 s</td>
+        <td>230 km/h</td>
+        <td>13.8 l</td>
+        <td>20€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>2.</td>
+            <td>Mercedes-benz E63</td>
+            <td>4 l</td>
+            <td>604 hp</td>
+            <td>automatická</td>
+            <td>3.4 s</td>
+            <td>300 km/h</td>
+            <td>12.5 l</td>
+            <td>20€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>3.</td>
+            <td>Nissan GTR</td>
+            <td>3.8 l</td>
+            <td>565 hp</td>
+            <td>automatická</td>
+            <td>3.6 s</td>
+            <td>315 km/h</td>
+            <td>12.2 l</td>
+            <td>25€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>4.</td>
+            <td>Labmorghini huracan</td>
+            <td>5.2 l</td>
+            <td>631 hp</td>
+            <td>automatická</td>
+            <td>2.9 s</td>
+            <td>325 km/h</td>
+            <td>15.6 l</td>
+            <td>30€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>5.</td>
+            <td>Labmorghini urus</td>
+            <td>5.2 l</td>
+            <td>631 hp</td>
+            <td>automatická</td>
+            <td>4.8 s</td>
+            <td>256 km/h</td>
+            <td>15.6 l</td>
+            <td>30€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>6.</td>
+            <td>BMW m8</td>
+            <td>4.4 l</td>
+            <td>591 hp</td>
+            <td>automatická</td>
+            <td>4.6 s</td>
+            <td>282 km/h</td>
+            <td>13.6 l</td>
+            <td>25€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>7.</td>
+            <td>Fiat multipla</td>
+            <td>1.6 l</td>
+            <td>103 hp</td>
+            <td>manuálna</td>
+            <td>áno</td>
+            <td>áno</td>
+            <td>8.6 l</td>
+            <td>5€</td>
+        </tr>
+        <td><label>
+            <input type="checkbox"/>
+        </label></td>
+        <td>1.</td>
+        <td>Mercedes-benz G63</td>
+        <td>5.5 l</td>
+        <td>540 hp</td>
+        <td>automatická</td>
+        <td>3.9 s</td>
+        <td>230 km/h</td>
+        <td>13.8 l</td>
+        <td>20€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>2.</td>
+            <td>Mercedes-benz E63</td>
+            <td>4 l</td>
+            <td>604 hp</td>
+            <td>automatická</td>
+            <td>3.4 s</td>
+            <td>300 km/h</td>
+            <td>12.5 l</td>
+            <td>20€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>3.</td>
+            <td>Nissan GTR</td>
+            <td>3.8 l</td>
+            <td>565 hp</td>
+            <td>automatická</td>
+            <td>3.6 s</td>
+            <td>315 km/h</td>
+            <td>12.2 l</td>
+            <td>25€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>4.</td>
+            <td>Labmorghini huracan</td>
+            <td>5.2 l</td>
+            <td>631 hp</td>
+            <td>automatická</td>
+            <td>2.9 s</td>
+            <td>325 km/h</td>
+            <td>15.6 l</td>
+            <td>30€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>5.</td>
+            <td>Labmorghini urus</td>
+            <td>5.2 l</td>
+            <td>631 hp</td>
+            <td>automatická</td>
+            <td>4.8 s</td>
+            <td>256 km/h</td>
+            <td>15.6 l</td>
+            <td>30€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>6.</td>
+            <td>BMW m8</td>
+            <td>4.4 l</td>
+            <td>591 hp</td>
+            <td>automatická</td>
+            <td>4.6 s</td>
+            <td>282 km/h</td>
+            <td>13.6 l</td>
+            <td>25€</td>
+        </tr>
+        <tr>
+            <td><label>
+                <input type="checkbox"/>
+            </label></td>
+            <td>7.</td>
+            <td>Fiat multipla</td>
+            <td>1.6 l</td>
+            <td>103 hp</td>
+            <td>manuálna</td>
+            <td>áno</td>
+            <td>áno</td>
+            <td>8.6 l</td>
+            <td>5€</td>
+        </tr>
+    </table>
+</div>
+<footer class="footer">
+    <p>autor: Pavol Mikula</p>
+</footer>
+</body>
+</html>

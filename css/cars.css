@@ -1,0 +1,96 @@
+th {
+    border-bottom: 1px solid #4b4b4b;
+    background-color: white;
+}
+tr:hover {
+    background-color: #ffd5a4;
+}
+table, th, td {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #c7c7c7;
+}
+tr:nth-child(even):hover {
+    background-color: #ffd5a4;
+}
+td:nth-child(n+4):nth-child(-n+9) {
+    text-align: center;
+}
+th:nth-child(n+4):nth-child(-n+9) {
+    text-align: center;
+}
+input.small {
+    max-width: 30%;
+    min-width: 20%;
+}
+td:nth-child(1){
+    padding-left: 20px;
+}
+.btn-rent {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+    background: rgb(0, 14, 111);
+    background: linear-gradient(0deg, rgb(0, 14, 111) 0%, rgb(170, 0, 255) 100%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 4px rgba(54, 54, 54, 0.5);
+    border: none;
+    transition: 0.5s;
+}
+.btn-rent:hover {
+    width: 155px;
+    height: 55px;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 5px;
+}
+.search-bar-input {
+    padding-right: 30px;
+    width: 90%;
+    height: 30px;
+    border-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+    display: flex;
+    font-size: medium;
+    transition: 0.3s;
+}
+.search-bar-input:hover{
+    width: 92%;
+    height: 35px;
+}
+.search-bar-input:focus{
+    outline-color: rgb(255, 165, 93);
+}
+.search-bar-icon {
+    width: 30px;
+    height: 30px;
+    padding-right: 7px;
+    padding-left: 10px;
+    display: flex;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.search-bar-icon:hover {
+    width: 35px;
+    height: 35px;
+}
